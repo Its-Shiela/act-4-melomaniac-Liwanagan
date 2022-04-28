@@ -18,11 +18,11 @@
                 <button method="GET" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-dark" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="song3.php">Song 3</a></li>
-                         <li class="nav-item"><a class="nav-link text-dark" href="song4.php">Song 4</a></li>
-                          <li class="nav-item"><a class="nav-link text-dark" href="song5.php">Song 5</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song1.php">Paper Rings</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song2.php">Spring Day</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song3.php">Asan Ka Na Ba?</a></li>
+                         <li class="nav-item"><a class="nav-link text-dark" href="song4.php">Sincerity is Scary</a></li>
+                          <li class="nav-item"><a class="nav-link text-dark" href="song5.php">Right Here</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,69 +33,70 @@
             <div class="container px-4 ">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h2 class="text-dark">ASAN KA NA BA</h2>
-                        <p class="lead">Zack Tabudlo</p>
-                        <p>Bakit lagi nalang ba ako mag isa</p>
-                        <p>Aasa nalang ba ako sa pantasya</p>
-                        <p>Nasan ka na ba</p>
-                        <p>Maghihintay nga ba</p>
-                        <p>Para kong tangang</p>
-                        <p>Nalulungkot sa wala</p>
-                        <p>Kahit san tumingin</p>
-                        <p>Ang daming nahuhulog</p>
-                        <p>Sa isat isa</p>
-                        <p>Bat sakin ay wala</p>
-                        <p>Lumapit ka</p>
-                        <p>Asan ka na ba</p>
-                        <p>Wala naman akong gusto na iba</p>
-                        <p>Ang sakit kahit walang nananakit</p>
-                        <p>Naghihintay ako</p>
-                        <p>Hinahanap kita</p>
-                        <p>Minsan iniisip ko</p>
-                        <p>Kung panget ba ko</p>
-                        <p>Kasi asan na binibini't</p>
-                        <p>Habang buhay ko</p>
-                        <p>Di ba talaga sapat ang tulad ko</p>
-                        <p>Sa buhay na isang prinsesa</p>
-                        <p>Na tulad mo</p>
-                        <p>Magtitiwala ba</p>
-                        <p>Sa sinasabing tadhana</p>
-                        <p>Pano ba naman</p>
-                        <p>Maniniwala</p>
-                        <p>Kung kahit san tumingin</p>
-                        <p>Ang daming nahuhulog sa</p>
-                        <p>Isat isa</p>
-                        <p>Bat sakin ay wala</p>
-                        <p>Lumapit ka</p>
-                        <p>Asan ka na ba</p>
-                        <p>Wala naman akong gusto na iba</p>
-                        <p>Ang sakit kahit walang nananakit</p>
-                        <p>Naghihintay ako</p>
-                        <p>Akoy nalilito</p>
-                        <p>Lumapit ka</p>
-                        <p>Asan ka na ba</p>
-                        <p>Hinihintay lang naman kasi kita</p>
-                        <p>Magpakita ka naman</p>
-                        <p>Saking mata</p>
-                        <p>Andito lang ako</p>
-                        <p>Hinahanap hanap kita</p>
-                        <p>Hinahanap hanap kita</p>
-                        <p>Gusto ko lang masilayan</p>
-                        <p>Ang kislap ng yong mata</p>
-                        <p>(Asan ka na ba)</p>
-                        <p>Lumapit ka</p>
-                        <p>Asan ka na ba</p>
-                        <p>Wala naman akong gusto na iba</p>
-                        <p>Ang sakit kahit walang nananakit</p>
-                        <p>Naghihintay ako</p>
-                        <p>Akoy nalilito</p>
-                        <p>Lumapit ka</p>
-                        <p>Asan ka na ba</p>
-                        <p>Hinihintay lang naman kasi kita</p>
-                        <p>Magpakita ka naman</p>
-                        <p>Saking mata</p>
-                        <p>Andito lang ako</p>
-                        <p>Hinahanap kita</p>
+
+                        <?php
+                        echo "<h2 class='text-dark'>ASAN KA NA BA</h2>";
+                        echo "<p class='lead'>Zack Tabudlo</p>";
+                        echo "<p>Bakit lagi nalang ba ako mag isa</p>";
+                        echo "<p>Aasa nalang ba ako sa pantasya</p>";
+                        echo "<p>Nasan ka na ba</p>";
+                        echo "<p>Maghihintay nga ba</p>";
+                        echo "<p>Para kong tangang</p>";
+                        echo "<p>Nalulungkot sa wala</p>";
+                        echo "<p>Kahit san tumingin</p>";
+                        echo "<p>Sa isat isa</p>";
+                        echo "<p>Bat sakin ay wala</p>";
+                        echo "<p>Lumapit ka</p>";
+                        echo "<p>Asan ka na ba</p>";
+                        echo "<p>Wala naman akong gusto na iba</p>";
+                        echo "<p>Ang sakit kahit walang nananakit</p>";
+                        echo "<p>Naghihintay ako</p>";
+                        echo "<p>Hinahanap kita</p>";
+                        echo "<p>Kung panget ba ko</p>";
+                        echo "<p>Kasi asan na binibini't</p>";
+                        echo "<p>Habang buhay ko</p>";
+                        echo "<p>Sa buhay na isang prinsesa</p>";
+                        echo "<p>Na tulad mo</p>";
+                        echo "<p>Magtitiwala ba</p>";
+                        echo "<p>Sa sinasabing tadhana</p>";
+                        echo "<p>Pano ba naman</p>";
+                        echo "<p>Maniniwala</p>";
+                        echo "<p>Kung kahit san tumingin</p>";
+                        echo "<p>Ang daming nahuhulog sa</p>";
+                        echo "<p>Isat isa</p>";
+                        echo "<p>Bat sakin ay wala</p>";
+                        echo "<p>Lumapit ka</p>";
+                        echo "<p>Asan ka na ba</p>";
+                        echo "<p>Wala naman akong gusto na iba</p>";
+                        echo "<p>Ang sakit kahit walang nananakit</p>";
+                        echo "<p>Naghihintay ako</p>";
+                        echo "<p>Akoy nalilito</p>";
+                        echo "<p>Lumapit ka</p>";
+                        echo "<p>Asan ka na ba</p>";
+                        echo "<p>Hinihintay lang naman kasi kita</p>";
+                        echo "<p>Magpakita ka naman</p>";
+                        echo "<p>Saking mata</p>";
+                        echo "<p>Andito lang ako</p>";
+                        echo "<p>Hinahanap hanap kita</p>";
+                        echo "<p>Hinahanap hanap kita</p>";
+                        echo "<p>Gusto ko lang masilayan</p>";
+                        echo "<p>Ang kislap ng yong mata</p>";
+                        echo "<p>(Asan ka na ba)</p>";
+                        echo "<p>Lumapit ka</p>";
+                        echo "<p>Asan ka na ba</p>";
+                        echo "<p>Wala naman akong gusto na iba</p>";
+                        echo "<p>Ang sakit kahit walang nananakit</p>";
+                        echo "<p>Naghihintay ako</p>";
+                        echo "<p>Akoy nalilito</p>";
+                        echo "<p>Lumapit ka</p>";
+                        echo "<p>Asan ka na ba</p>";
+                        echo "<p>Hinihintay lang naman kasi kita</p>";
+                        echo "<p>Magpakita ka naman</p>";
+                        echo "<p>Saking mata</p>";
+                        echo "<p>Andito lang ako</p>";
+                        echo "<p>Hinahanap kita</p>";
+                        ?>
+                        
                         
 
                     </div>
