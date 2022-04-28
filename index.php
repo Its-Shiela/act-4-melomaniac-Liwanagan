@@ -43,11 +43,11 @@ if (isset($_REQUEST["song5.php"])=== true){
                 <button method="GET" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-dark" href="song1.php">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="song2.php">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="song3.php">Song 3</a></li>
-                         <li class="nav-item"><a class="nav-link text-dark" href="song4.php">Song 4</a></li>
-                          <li class="nav-item"><a class="nav-link text-dark" href="song5.php">Song 5</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song1.php">Paper Rings</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song2.php">Spring Day</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="song3.php">Asan Ka Na Ba?</a></li>
+                         <li class="nav-item"><a class="nav-link text-dark" href="song4.php">Sincerity is Scary</a></li>
+                          <li class="nav-item"><a class="nav-link text-dark" href="song5.php">Right Here</a></li>
                     </ul>
                 </div>
             </div>
